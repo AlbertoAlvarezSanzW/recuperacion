@@ -57,15 +57,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-
                 <include layout="@layout/campocuarto" />
                 <include layout="@layout/campoquinto" />
                 <include layout="@layout/camposexto" />
+                <include layout="@layout/camposeptimo" />
 
             </LinearLayout>
 
 
-        </LinearLayout>
+            </LinearLayout>
+
+
+
 
 
     </ScrollView>
@@ -75,6 +78,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <include
